@@ -1,0 +1,277 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'josefin sans', sans-serif;
+}
+.Hero{
+    height:100vh;
+    width: 100%;
+    background-image: url('https://t3.ftcdn.net/jpg/02/66/00/42/360_F_266004248_brGaUW8cSWcQBDt1NJshxSjHxBqTMUMo.jpg');
+    background-size:cover;
+    background-position:centre;
+}
+
+nav{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    padding-top:45px;
+    margin-left: 8%;
+    margin-right: 8%;
+
+}
+.logo{
+    color:white;
+    font-size:30px;
+    letter-spacing:1px;
+    cursor:pointer;
+
+}
+span{
+    color:brown;
+}
+nav ul li{
+    
+    list-style-type:none;
+    display:inline-block;
+    padding: 10px 25px;
+}
+nav ul li{
+    color: white;
+    text-decoration:none;
+    font-weight: bold;
+    text-transform: capitalize;
+
+}
+nav ul li a:hover{
+    color:brown;
+   
+
+}
+.image img{
+    margin-left: 47%;
+    margin-top:150px;;
+    padding:0;
+    border-radius:50%;
+    border: 10px solid black;
+}
+.content{
+    position:absolute;
+    top:50%;
+    left:8%;
+
+}
+h1{
+    color:white;
+    margin:20px 0px 20px;
+    font-size:50px;
+}
+h4{
+    color:white;
+    font-size:20px;
+}
+h3{
+    color:brown;
+    font-size:20px;
+    margin-left: 60px;  
+}
+j{
+    color:brown;
+}
+.para{
+    color:white;
+    text-align:center;
+}
+p{
+    font-size:30px ;
+}
+v{
+    color:brown;
+}
+
+#skills-section{
+    height: 60vh;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.skills-display{
+    width: 70%;
+    height: 50%;
+    border:3px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}
+#skills-section{
+    margin-top: 20px;
+    background-color: black;
+   
+
+}
+#sill-progress{
+    width: 10rem;
+    height: 1.4rem;
+    background-color:black;
+    border-radius: 0.2rem;
+
+    /*border: 2px solid black;*/
+
+}
+#sill-progress>div{
+    border-radius: 20px;
+}
+
+.skil-name span{
+    color: azure;
+    font-size:20px;
+    margin-bottom: 40px;
+    padding-left: 25px;
+    
+
+}
+
+.eighty-present{
+    width: 85%;
+    height:inherit;
+}
+.mb-blue{
+    background-color: rgb(61, 61, 225);
+}
+.section-headng{
+    text-align: center;
+    margin-top: 20px;
+}
+#project-section{
+   
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+#project-section{
+    text-align: center;
+    background-color: black;
+    margin-bottom: 20px;
+    height:60%;
+}
+
+#project-heading{
+    font-size: 35px;
+    font-weight: 700;
+    color: blue;
+}
+
+#project-container{
+    height: 90%;
+    width: 95%;
+    /* border: 2px solid red;*/
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+
+}
+#project-container div{
+    height: 300px;
+    width: 300px;
+    border: 4px solid rgb(122, 112, 112);
+    margin-left: 85px;
+    margin-top: 25px;
+    border-radius: 10px;
+}
+#landing-img-container{
+    background-image:url("./landing.png");
+    background-repeat: no-repeat;
+   background-position: center;
+   background-size: 300px 300px;
+
+}
+#portfolio-img-container{
+    background-image: url("./download\ \(3\).png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 290px 290px;
+}
+#calculator-img-container{
+    background-image: url("./Calculator_512.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 300px 300px;
+
+}
+#contect-section{
+    height: auto;
+    width: 100%;
+    background-color: rgb(138, 132, 132);
+}
+
+#contact-heading{
+    font-size: 50px;
+    color: white;
+    font-weight: 700;
+}
+
+#contact-container{
+    height:90%;
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+
+}
+#contact-container div{
+    height: 350px;
+    width: 450px;
+    margin-left: 120px;
+
+}
+#contact-form{
+    text-align: left;
+
+}
+#contact-form h2{
+    color:white;
+}
+#contact-form hr{
+    margin-top:-10px;
+}
+
+#contact-address{
+    text-align: left;
+    color:white;
+}
+p{
+    text-align: center;
+    font-weight: 100;
+}
+#name-social-container{
+    margin-top: 20vh;
+}
+.text-center{
+    text-align: center;
+    color: azure;
+    font-weight:700;
+    letter-spacing: 0.1rem;
+
+}
+.social-icon{
+    list-style: none;
+    image-rendering: auto;
+    text-align: center;
+    padding-left: 0px;
+    
+}
+.social-icon li{ 
+    display: inline;
+    margin: 0px 10px 10px 0px;
+    
+    
+}
+.social-icon li a{
+    text-decoration: none;
+}
+.social-icon li a:hover{
+    color: rgb(113, 123, 123);
+    border-bottom: 2px solid white;
+    box-shadow: 0px 0px 6px 4px rgb(91, 87, 87);
+
+}
